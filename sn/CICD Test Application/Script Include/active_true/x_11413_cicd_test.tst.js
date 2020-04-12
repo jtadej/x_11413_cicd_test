@@ -3,8 +3,8 @@
  * ClassName   : sys_script_include
  * Created On  : 2019-02-28 13:45:57
  * Created By  : admin
- * Updated On  : 2020-04-12 04:20:49
- * Updated By  : CD-User
+ * Updated On  : 2020-04-12 05:32:16
+ * Updated By  : admin
  * URL         : /sys_script_include.do?sys_id=1b9ed113dbf32300fcf41780399619fc
  */
 /**
@@ -36,7 +36,7 @@ tst.prototype = /** @lends x_11413_cicd_test.module:sys_script_include.tst.proto
 	/**
 	 * Description
 	 * Does something testing function 1
-	 * @returns {string} 
+	 * @returns {string}
 	 */
 	testFunction1: function() {
 		return 'string';
@@ -44,11 +44,11 @@ tst.prototype = /** @lends x_11413_cicd_test.module:sys_script_include.tst.proto
 	
 	/**
 	 * Description
-	 * Does something for testing function 2
-	 * @returns {number} 
+	 * 
+	 * @returns {boolean} 
 	 */
-	testFunction2: function() {
-		return 0;
+	testFunction3: function() {
+		return false;
 	},
 		
 	type: 'tst'
