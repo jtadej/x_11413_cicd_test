@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2020-04-12 05:32:43">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</application>
+<application_name>CICD Test Application</application_name>
+<application_scope>x_11413_cicd_test</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>CICD Test Application - 1.0.1</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>6faf3dbadb009010272bf282399619bf</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-04-12 05:32:43</sys_created_on>
+<sys_id>1c2082fadb009010272bf282399619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-04-12 05:32:43</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_1b9ed113dbf32300fcf41780399619fc</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_11413_cicd_test.tst&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;tst&lt;/name&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Class Description
+ * 
+ * @class 
+ * @author System Administrator [admin]
+ * @memberof x_11413_cicd_test.module:sys_script_include
+ */
+var tst = Class.create();
+tst.prototype = /** @lends x_11413_cicd_test.module:sys_script_include.tst.prototype */ {
+	/**
+	 * Description
+	 * 
+	 * @returns {undefined}
+	 */
+	initialize: function() {
+	},
+	
+	/**
+	 * Description
+	 * 
+	 * @returns {boolean}
+	 */
+	dummy: function(){
+		return true;
+	},
+	
+	/**
+	 * Description
+	 * Does something testing function 1
+	 * @returns {string}
+	 */
+	testFunction1: function() {
+		return 'string';
+	},
+	
+	/**
+	 * Description
+	 * 
+	 * @returns {boolean} 
+	 */
+	testFunction3: function() {
+		return false;
+	},
+		
+	type: 'tst'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-28 13:45:57&lt;/sys_created_on&gt;&lt;sys_id&gt;1b9ed113dbf32300fcf41780399619fc&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;tst&lt;/sys_name&gt;&lt;sys_package display_value="CICD Test Application" source="x_11413_cicd_test"&gt;268e9d5fdbb32300fcf417803996195e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CICD Test Application"&gt;268e9d5fdbb32300fcf417803996195e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_1b9ed113dbf32300fcf41780399619fc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-04-12 05:32:16&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>867106021</payload_hash>
+<remote_update_set display_value="CICD Test Application - 1.0.1">1c2082fadb009010272bf282399619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-04-12 05:32:43</sys_created_on>
+<sys_id>dc2082fadb009010272bf282399619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1716cdfc6880000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-04-12 05:32:43</sys_updated_on>
+<table/>
+<target_name>tst</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>79000eba4600901094f2b80e6808ff5b</update_guid>
+<update_guid_history>79000eba4600901094f2b80e6808ff5b:867106021,4faf69be71cc50107d1e8bc8105f5e97:-74231032,563e697e7bcc5010cc3037c44494bb3b:-1332516030,15a5e13694cc5010eb8595a3b81e2cdd:-960276635,03803bdaf4005010b98156b4bc3cad24:1008681585,f1b8fd1044acff009ea5106fffe178dc:-1350214874,be09611b8af32300b5e7d7f88b2759f3:-613142934,b4c5e9175bf32300caecadd33c24f5b6:718923934,0eb5e91700f323005672ea792f1b066b:1646079823,99ee9513b7f3230055f7388cfd43d01a:-1681877651,b5ced513adf323009f38db6b92d99bb2:-1730179430</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
